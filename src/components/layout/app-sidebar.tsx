@@ -17,22 +17,9 @@ import {
 
 // Sidebar Menu Items
 const items = [
-    {
-    title: "My Team", 
-    url: '#', 
-    icon: FootballIcon
-    }, 
-    {
-        title: "League", 
-        url: "#", 
-        icon: GoalPostIcon
-    }, 
-    {
-        title: "Players", 
-        url: "#", 
-        icon: HelmetIcon
-    }
-
+    { title: "My Team", url: '#', icon: FootballIcon }, 
+    { title: "League", url: "#", icon: GoalPostIcon }, 
+    { title: "Players", url: "#", icon: HelmetIcon }
 ]
 
 export function AppSidebar() {
